@@ -1,0 +1,122 @@
+/* @import 'flowbite'; */
+
+.a,
+.b,
+.c,
+.d {
+  position: relative;
+  display: inline-block;
+}
+
+.a[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  bottom: -90px;
+  left: -130%;
+  width: 140px;
+  clip-path: polygon(
+    0 100%,
+    100% 100%,
+    100% 23%,
+    69% 22%,
+    52% 1%,
+    31% 21%,
+    0 21%
+  );
+  background-color: rgb(65, 64, 64);
+  border: 2px solid black;
+  padding: 10px;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+.b {
+  position: relative;
+  display: inline-block;
+}
+
+.b[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  bottom: -110px;
+  left: -100%;
+  width: 140px;
+  clip-path: polygon(
+    0 100%,
+    100% 100%,
+    100% 23%,
+    69% 22%,
+    52% 1%,
+    31% 21%,
+    0 21%
+  );
+  background-color: rgb(65, 64, 64);
+  border: 2px solid black;
+  padding: 10px;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+
+.c {
+  position: relative;
+  display: inline-block;
+}
+
+.c[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  bottom: -90px;
+  left: -120%;
+  width: 200px;
+  clip-path: polygon(
+    0 100%,
+    100% 100%,
+    100% 23%,
+    69% 22%,
+    52% 1%,
+    31% 21%,
+    0 21%
+  );
+  background-color: rgb(65, 64, 64);
+  border: 2px solid black;
+  padding: 10px;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+
+.d {
+  position: relative;
+  display: inline-block;
+}
+
+.d[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  bottom: -68px;
+  left: -150%;
+  width: 95px;
+  text-align: center;
+  clip-path: polygon(
+    0 100%,
+    100% 100%,
+    100% 23%,
+    69% 22%,
+    52% 1%,
+    31% 21%,
+    0 21%
+  );
+  background-color: rgb(65, 64, 64);
+  border: 2px solid black;
+  padding: 10px;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+
+.option {
+  margin: 20px 30px;
+  transition: 0.1s;
+
+  &:hover {
+    border: 3px solid darkblue;
+    transform: scale(1.1);
+  }
+}

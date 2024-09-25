@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
+
+.animation {
+  font-family: "Protest Guerrilla", sans-serif;
+  display: grid;
+  place-content: center;
+  background-color: #000;
+  color: greenyellow;
+  text-shadow: 0px 0px 10px lightgreen;
+  /* animation: ani cubic-bezier(0.455, 0.03, 0.515, 0.955) 10s alternate; */
+  /* display: none; */
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  font-size: 4em;
+  top: 0px;
+  transform: perspective(2000px) rotateX(0deg);
+  left: 0;
+  transition: 3s linear;
+}
+
+/* @keyframes ani {
+  0% {
+    font-size: 0em;
+    top: -2000px;
+    transform: rotateX(0deg);
+  }
+  70% {
+    font-size: 4em;
+    top: 0px;
+    transform: rotateX(360deg);
+  }
+  100% {
+    font-size: 2em;
+    top: -1000px;
+    transform: rotateX(160deg);
+  }
+} */
